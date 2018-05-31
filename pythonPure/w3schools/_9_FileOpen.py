@@ -29,3 +29,9 @@ f = open("demofile.txt", "r")
 print("Returning one line by using the readline() method : ", f.readline())
 print("Returning 2nd line by using the readline() method : ", f.readline())
 print("Returning 3rd line by using the readline() method : ", f.readline())
+print("------------------------------------")
+f = open("demofile.txt", "r")
+
+for x in f :
+    print(x)
+print("------------------------------------")
